@@ -6,11 +6,11 @@ export default function Die(props) {
     }
     return (
         <div 
-            className="die-face" 
+            className="h-14 w-14 shadow-die rounded-xl flex justify-center items-center cursor-pointer" 
             style={styles}
             onClick={props.holdDice}
         >
-            <h2 className="die-num">{props.value}</h2>
+            <h2 className="text-3xl font-semibold">{props.value}</h2>
         </div>
     )
 }

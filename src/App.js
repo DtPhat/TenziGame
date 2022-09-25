@@ -86,19 +86,20 @@ export default function App() {
     return (
         <main>
             {tenzies && <Confetti />}
-            <h1 className="title">Tenzi</h1>
-            <p className="instructions">Roll until all dice are the same. Click each die to freeze it at its current value between rolls.<br />
+            <h1 className="text-5xl m-0 text-blue-800 font-bold">Tenzi</h1>
+            <p className="pt-2 font-inter font-medium m-0 text-center text-lg">
+                Roll until all dice are the same.
+                Click each die to freeze it at its current value between rolls.
                 The timer will start once a die has been held.
             </p>
-            <p className="extra-info">
+            <p className="w-[95%] flex justify-between font-bold text-xl">
                 <h3 className="timer">Time spent: {timeSpent}s</h3>
                 <h3 className="counter">Roll counted: {counter} </h3>
             </p>
-            <div className="dice-container">
+            <div className="grid grid-cols-5 gap-5 mb-5 w-">
                 {diceElements}
             </div>
             <button
-                className="roll-dice"
                 onClick={rollDice}
             >
                 {tenzies ? "New Game" : "Roll"}
