@@ -51,11 +51,38 @@
 
 /* background animation */
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+
+
+.context {
+    width: 100%;
+    position: absolute;
+    top:50vh;
+    
+}
+
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+
 .area{
-    background: #4c52c5;  
+    background: #4e54c8;  
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
     width: 100%;
     height:100vh;
+    
+   
 }
 
 .circles{
@@ -74,7 +101,7 @@
     width: 20px;
     height: 20px;
     background: rgba(255, 255, 255, 0.2);
-    animation: animate 15s linear infinite;
+    animation: animate 25s linear infinite;
     bottom: -150px;
     
 }
@@ -92,7 +119,7 @@
     width: 20px;
     height: 20px;
     animation-delay: 2s;
-    animation-duration: 6s;
+    animation-duration: 12s;
 }
 
 .circles li:nth-child(3){
@@ -107,7 +134,7 @@
     width: 60px;
     height: 60px;
     animation-delay: 0s;
-    animation-duration: 9s;
+    animation-duration: 18s;
 }
 
 .circles li:nth-child(5){
@@ -135,8 +162,8 @@
     left: 50%;
     width: 25px;
     height: 25px;
-    animation-delay: 5s;
-    animation-duration: 25s;
+    animation-delay: 15s;
+    animation-duration: 45s;
 }
 
 .circles li:nth-child(9){
@@ -144,7 +171,7 @@
     width: 15px;
     height: 15px;
     animation-delay: 2s;
-    animation-duration: 20s;
+    animation-duration: 35s;
 }
 
 .circles li:nth-child(10){
@@ -158,6 +185,7 @@
 
 
 @keyframes animate {
+
     0%{
         transform: translateY(0) rotate(0deg);
         opacity: 1;
