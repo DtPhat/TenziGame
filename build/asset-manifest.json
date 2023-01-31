@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Tenzi_Game/static/css/main.83155fb5.css",
+    "main.js": "/Tenzi_Game/static/js/main.3661fcc4.js",
+    "static/js/787.7e2466ed.chunk.js": "/Tenzi_Game/static/js/787.7e2466ed.chunk.js",
+    "index.html": "/Tenzi_Game/index.html",
+    "main.83155fb5.css.map": "/Tenzi_Game/static/css/main.83155fb5.css.map",
+    "main.3661fcc4.js.map": "/Tenzi_Game/static/js/main.3661fcc4.js.map",
+    "787.7e2466ed.chunk.js.map": "/Tenzi_Game/static/js/787.7e2466ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83155fb5.css",
+    "static/js/main.3661fcc4.js"
+  ]
+}
